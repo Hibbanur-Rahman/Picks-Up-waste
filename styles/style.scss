@@ -1,0 +1,62 @@
+:root {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+  
+    color-scheme: light dark;
+
+  
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+/* Default styles */
+.main-page {
+  background-color: #009BDF !important;
+  height: auto; /* Set default height to auto */
+}
+.timer-image{
+  height: 40px !important;
+  width: 60px !important;
+}
+.pause{
+  height: 30px !important;
+  width: 60px !important;
+  cursor: pointer;
+}
+.options-item{
+  height: 180px !important;
+  background-color: #fff !important;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.trash-img{
+  height: 200px !important;
+  width: 200px !important;
+}
+#gif{
+  position: absolute;
+  z-index: 3;
+  width: 90%;
+}
+.lose,.win{
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  z-index: 3;
+}
+.hide{
+  display: none;
+}
+
+/* Media query for desktop screens */
+@media (min-width: 768px) {
+  .main-page {
+    height: 100vh; /* Set height to 100vh on screens wider than 768px */
+  }
+}
+  .level-item{
+    background-color: #D9D9D9 !important;
+   
+  }
+  
